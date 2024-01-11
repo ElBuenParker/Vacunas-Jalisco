@@ -1,0 +1,68 @@
+section {
+    color: #fff;
+    text-shadow: 3px 3px rgba(50,50,70,0.5);
+    background-color: #3e3e3eb0;
+    height: 100vh;  
+  }
+  .navBg {
+    background-color: #ffffff;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .jalisco{
+    background: url(/public/img/jalisco.png);
+    width: 126px;
+    height: 54px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  .logo_jalisco{
+    background: url(/public/img/logo_jal.png);
+    width: 126px;
+    height: 54px;
+    border: none;
+    margin-left: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  .calculadora{
+    width: 116px;
+    height:20;
+    border: none;
+    background-color: transparent;
+    color:#37AEFE;
+    margin-left: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .info{
+    background: url(/public/img/info.png);
+    width: 20px;
+    margin-left: 30px;
+    margin-right: -30px;
+    border: none;  
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+
+  .priv{
+    width: 200px;
+    height:20;
+    border: none;
+    background-color: transparent;
+    color:#37AEFE;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
