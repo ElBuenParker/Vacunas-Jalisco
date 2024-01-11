@@ -7,6 +7,7 @@ import Home from './components/home';
 import NavBarExample from './layouts/navbar';
 import Calculadora from './components/calculadora';
 import Privacidad from './components/privacidad';
+import Cita from './components/cita';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 <Routes>
   <Route path='/' element={ <NavBarExample /> }>
     <Route index element={ <Home /> } />
+    <Route path='cita' element={ <Cita /> } />
     <Route path='calculadora' element={ <Calculadora /> } />
     <Route path='privacidad' element={ <Privacidad /> } />
     <Route path='*' element={ <Navigate replace to="/"/> }/>

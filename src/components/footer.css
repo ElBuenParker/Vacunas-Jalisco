@@ -1,0 +1,109 @@
+.foot1{
+    position: absolute;
+    background: url(/public/img/foot1.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot2{
+    position: absolute;
+    background: url(/public/img/foot2.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 77%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot3{
+    position: absolute;
+    background: url(/public/img/foot3.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 62%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot4{
+    position: absolute;
+    background: url(/public/img/foot4.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 47%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot5{
+    position: absolute;
+    background: url(/public/img/foot5.png);
+    width: 126px;
+    height: 90px;
+    top: 108%;
+    right: 32%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot6{
+    position: absolute;
+    background: url(/public/img/foot6.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 17%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+
+}
+.foot7{
+    position: absolute;
+    border: none;
+    background: url(/public/img/foot7.png);
+    width: 126px;
+    height: 54px;
+    top: 110%;
+    right: 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.arrowBlue{
+    position: absolute;
+    border: none;
+    background: url(/public/img/arrorblue.png);
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    right: 94%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:70%;
+}
+
+.point{
+    position: absolute;
+    border: none;
+    background: url(/public/img/points.png);
+    width: 85px;
+    height: 85px;
+    top: 80%;
+    right: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:70%;
+}
