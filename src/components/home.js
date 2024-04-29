@@ -1,10 +1,15 @@
 import "./curpContainer.css"
 import "./footer.css"
 import { Outlet, Link, useNavigate } from "react-router-dom"
+import { useForm } from "react-hook-form";
+
 
 
 const Home = () => {
     const login = async () => {
+        
+            alert('Mensaje de alerta');
+        
         
     }
     const navigate = useNavigate();
@@ -14,7 +19,13 @@ const Home = () => {
         }
    
     
-    
+        const { register, formState: { errors }, watch, handleSubmit } = useForm({
+            
+        });
+        const onSubmit = (data) => {
+            console.log(data);
+        }
+
     return(
         
         <div className="a"> 
@@ -47,15 +58,24 @@ const Home = () => {
 
                     </div>
                     <div className="d">
-                        <div className="textD1">Comenzar ahora</div>
-                        <div className="textD2">Ingresa tu CURP para agendar una cita o para <button onClick={login} className="buttonD2">cancelar una cita</button> ya registrada</div>
-        
-                        <input className="curpInput" name="miCurp" />
-                        <input type="text" id="uCurp" className="curpInput" placeholder="        introduce tu CURP "></input>
-                        <button onClick={navigateToCita} className="buttonD3">Continuar</button>
-                        <div className="textD3">Si no conoces tu CURP</div>
-                        <button onClick={login} className="textD4">consulta aquí</button>
-                    
+                        <form onSubmit={handleSubmit(onSubmit)}>
+                            <div className="textD1">Comenzar ahora</div>
+                            <div className="textD2">Ingresa tu CURP para agendar una cita o para <button onClick={login} className="buttonD2">cancelar una cita</button> ya registrada</div>
+            
+                            <div>
+                                
+                                <input className="curpInput" type="text" {...register('nombre', {
+                                    required: true,
+                                    maxLength: 10
+                                })} />
+                                {errors.nombre?.type === 'required' && <p>El campo nombre es requerido</p>}
+                                {errors.nombre?.type === 'maxLength' && <p>El campo nombre debe tener menos de 10 caracteres</p>}
+                            </div>
+                            <input  onClick={navigateToCita} className = 'buttonD3 'type="submit" value="Enviar" />
+                            <input type="text" id="uCurp" className="curpInput" placeholder="        introduce tu CURP "></input>
+                            <div className="textD3">Si no conoces tu CURP</div>
+                            <button onClick={login} className="textD4">consulta aquí</button>
+                        </form>
                     </div>
                             
                     </div>
