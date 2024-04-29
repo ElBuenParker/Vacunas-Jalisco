@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vacunas-Jalisco/static/css/main.7943d089.css",
+    "main.js": "/Vacunas-Jalisco/static/js/main.14232c0b.js",
+    "static/js/787.a4992317.chunk.js": "/Vacunas-Jalisco/static/js/787.a4992317.chunk.js",
+    "static/media/check.png": "/Vacunas-Jalisco/static/media/check.2f5c7113253a83435a49.png",
+    "index.html": "/Vacunas-Jalisco/index.html",
+    "main.7943d089.css.map": "/Vacunas-Jalisco/static/css/main.7943d089.css.map",
+    "main.14232c0b.js.map": "/Vacunas-Jalisco/static/js/main.14232c0b.js.map",
+    "787.a4992317.chunk.js.map": "/Vacunas-Jalisco/static/js/787.a4992317.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7943d089.css",
+    "static/js/main.14232c0b.js"
+  ]
+}
